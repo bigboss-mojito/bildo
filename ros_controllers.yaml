@@ -1,0 +1,22 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 50
+    # Contrôleurs de joint
+    joint_state_controller:
+      type: "joint_state_controller/JointStateController"
+    joint_0_position_controller:
+      type: "position_controllers/JointPositionController"
+      joint: "joint_0"
+    joint_1_position_controller:
+      type: "position_controllers/JointPositionController"
+      joint: "joint_1"
+    joint_2_position_controller:
+      type: "position_controllers/JointPositionController"
+      joint: "joint_2"
+    joint_3_position_controller:
+      type: "position_controllers/JointPositionController"
+      joint: "joint_3"
+    joint_11_position_controller:
+      type: "position_controllers/JointPositionController"
+      joint: "joint_11"
+
